@@ -4,8 +4,8 @@ public class Snail extends Animal {
     public String bar;
     public static int countBar = 0;
 
-    public Snail(String name, int leg, int weight, int age, String bar) {
-        super(name, leg, weight, age);
+    public Snail(String name, int leg, int weight, int age, String bar, boolean fly) {
+        super(name, leg, weight, age, fly);
         if (bar == "Yes")
             countBar++;
     }

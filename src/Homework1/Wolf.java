@@ -4,8 +4,8 @@ public class Wolf extends Animal {
     public String circus;
     public static int countCircus = 0;
 
-    public Wolf(String name, int leg, int weight, int age, String circus) {
-        super(name, leg, weight, age);
+    public Wolf(String name, int leg, int weight, int age, String circus, boolean fly) {
+        super(name, leg, weight, age, fly);
         if (circus == "Yes")
             countCircus = 0;
     }
